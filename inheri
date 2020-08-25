@@ -1,0 +1,17 @@
+class inheri
+  {nt add(int x,int y)
+    {
+        return x+y;
+    }
+}
+class Adder extends inheri
+{
+}
+public class Solution{
+    public static void main(String []args){
+    Adder a = new Adder();
+    system.out.println("my superclass is: "+a.getCALss().getSuperclass().getName()};
+
+    system.out.print(a.add(10,32)+" "+a.add(10,3)+" "+a.add(10,10)+"\n");
+    }
+   } 
